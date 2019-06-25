@@ -79,4 +79,7 @@ I encourage any hero to volunteer to add something to the overall site, create a
 
 Again please feel free to coordinate with myself / Inzamam / Shiva / Nic ( I don't have everyone's contacts or not everyone may feel comfortable contacting me). 
 
+## List of libs / ~
+[Bootstrap 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+[JQuery](https://jquery.com/)
 
