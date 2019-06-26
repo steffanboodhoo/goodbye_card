@@ -1,0 +1,25 @@
+/*Mikkel Hayes CSS*/
+#mikkel_hayes {
+    background-color: #212529;
+    text-align: center;
+    color: #B47F41!important;
+}
+.mikkelhayes_laughter {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6%;
+    width: 50%;
+}
+@media screen and (max-width: 800px) {
+    #mikkel_hayes{
+        /*width: 95%;*/
+    }
+    .mikkelhayes_laughter{
+        width: 85%;
+    }
+    .mikkelhayes_img{
+        height: 63px;
+        width: auto;
+    }
+}
+/*end of Mikkel Hayes*/
