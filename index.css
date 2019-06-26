@@ -44,3 +44,10 @@
     font-size: xx-small;
 }
 /*end of Sudesh Lutchman*/
+
+/*Self documenting CSS class names*/
+#kris_manohar {
+    background-color: #b3d7ff;
+    text-align: center;
+    color: #212529!important;
+}
