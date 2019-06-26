@@ -1,6 +1,61 @@
+/*Steffan Boodhoo CSS*/
+#steffan_boodhoo {
+    text-align: center;
+}
+/*end of Steffan Boodhoo*/
+
+/*Mikkel Hayes CSS*/
+#mikkel_hayes {
+    background-color: #212529;
+    text-align: center;
+    color: #B47F41!important;
+}
+.mikkelhayes_laughter {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6%;
+    width: 50%;
+}
+@media screen and (max-width: 800px) {
+    #mikkel_hayes{
+        /*width: 95%;*/
+    }
+    .mikkelhayes_laughter{
+        width: 85%;
+    }
+    .mikkelhayes_img{
+        height: 63px;
+        width: auto;
+    }
+}
+/*end of Mikkel Hayes*/
+
+/*Sudesh Lutchman CSS*/
+#sudesh_lutchman {
+    background-color: #B47F41;
+    text-align: center;
+    color: #212529!important;
+}
+.sudeshlutchman_fineprint {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6%;
+    width: 50%;
+    font-size: xx-small;
+}
+/*end of Sudesh Lutchman*/
+
+/*Self documenting CSS class names*/
+#kris_manohar {
+    background-color: #b3d7ff;
+    text-align: center;
+    color: #212529!important;
+}
+
 /*Self documenting CSS class names*/
 #sterling_ramroach {
     background-color: #b4d7ff;
     text-align: center;
     color: #212529!important;
 }
+
