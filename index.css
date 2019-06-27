@@ -1,3 +1,110 @@
+/* I don't need any bootstrap - Anderson */
+/* the css in this section is related to the header/hero, I prefixed it with header and heading. */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+  font-size: 62.5%; 
+}
+
+body {
+    padding: 3rem;
+}
+
+.header {
+    height: 95vh;
+    background-image: url("res/images/header-hero.jpeg");
+    background-size: cover;
+    background-position: center top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative; 
+}
+
+.header__text-box {
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem; 
+}
+
+.heading-primary--main {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out; 
+}
+
+.heading-primary--sub {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    animation: moveInRight 1s ease-out;
+}
+
+.header__logo-box {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.header__logo {
+    height: 10rem; 
+}
+
+.header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    80% {
+      transform: translateX(10px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px); 
+    } 
+}
+  
+@keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px); 
+    }
+    80% {
+      transform: translateX(-10px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px); 
+    } 
+}
+
 /*Steffan Boodhoo CSS*/
 #steffan_boodhoo {
     text-align: center;
@@ -45,6 +152,12 @@
 }
 /*end of Sudesh Lutchman*/
 
+#inzamam_rahaman {
+    background-color: #87CEEB;
+    text-align: center;
+    color: #212529!important;
+}
+
 /*Self documenting CSS class names*/
 #kris_manohar {
     background-color: #b3d7ff;
@@ -73,3 +186,10 @@
     background: linear-gradient(321deg, rgba(0,21,36,1) 0%, rgba(62,137,190,1) 85%);
 }
 /*end of Shiva Ramoudith*/
+
+/* anderson's css */
+#anderson_singh {
+    background-color: #b4d7ff;
+    text-align: center;
+    color: #212529!important;
+}

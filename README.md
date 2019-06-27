@@ -19,7 +19,7 @@ In the `<body>` there is a div, `<div id='content'>`, each person will create th
     </div>
 </div>
 ```
-This way if someone decides to someone decides to write some javascript to dynamically create some meta content (e.g. a side nav) they can easily query the the DOM to get relevant sections and references. 
+This way if someone decides to write some javascript to dynamically create some meta content (e.g. a side nav) they can easily query the the DOM to get relevant sections and references. 
 
 Please prefix id's with your firstname and lastname to avoid anyone else from manipulating them erroneously in their javascript, illustration
 ```html
